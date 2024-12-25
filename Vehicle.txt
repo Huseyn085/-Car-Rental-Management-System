@@ -1,5 +1,0 @@
-import json
-
-def load_vehicles(file_path="Vehicle.txt"):
-    with open(file_path, "r") as file:
-        return json.load(file)
