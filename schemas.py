@@ -46,3 +46,4 @@ class Rental(RentalBase):
 
     class Config:
         from_attributes = True
+
