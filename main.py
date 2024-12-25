@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from car_rental.routers import cars, customers, rentals
+import cars, customers, rentals  # Modules directly imported if all are in the same directory
 
 app = FastAPI()
 
