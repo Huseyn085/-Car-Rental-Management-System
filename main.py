@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import cars, customers, rentals  # Modulları birbaşa import etmək
+from routers import cars, customers, rentals  # Modulları doğru yoldan import etmək
 
 app = FastAPI()
 
@@ -10,3 +10,4 @@ def read_root():
 app.include_router(cars.router, prefix="/cars", tags=["Cars"])
 app.include_router(customers.router, prefix="/customers", tags=["Customers"])
 app.include_router(rentals.router, prefix="/rentals", tags=["Rentals"])
+
