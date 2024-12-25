@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-import cars, customers, rentals  # Modules directly imported if all are in the same directory
+import cars, customers, rentals  # Modulları birbaşa import etmək
 
 app = FastAPI()
 
