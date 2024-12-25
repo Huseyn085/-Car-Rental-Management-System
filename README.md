@@ -1,5 +1,4 @@
 car_rental_system/
-├── car_rental/
 │   ├── __init__.py
 │   ├── main.py
 │   ├── models.py
