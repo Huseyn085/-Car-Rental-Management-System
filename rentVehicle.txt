@@ -1,3 +1,0 @@
-def add_rental(rental, file_path="rentVehicle.txt"):
-    with open(file_path, "a") as file:
-        file.write(f"{rental}\\n")
